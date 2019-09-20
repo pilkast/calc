@@ -36,3 +36,8 @@ function clear() {
         document.getElementById('archiv').innerHTML = '';
             document.getElementById('znak').innerHTML = '';
 }
+function mathPowAny(a) {
+    p1 = document.getElementById('result').innerHTML;
+    res = Math.pow(p1, a);
+    document.getElementById('result').innerHTML = res;
+}
