@@ -20,15 +20,18 @@
         <input type="button" id="id8" value="8" onclick="result(8)">
         <input type="button" id="id9" value="9" onclick="result(9)">
 
-        <input type="button" id="idPlus" value="+" onclick="result()">
-        <input type="button" id="idMinus" value="-" onclick="result()">
-        <input type="button" id="idResult" value="=" onclick="result()">
-        <input type="button" id="idShare" value="/" onclick="result()">
-        <input type="button" id="idX" value="X" onclick="result()">
+        <input type="button" id="clearAll" value="c" onclick="clear()">
+        <input type="button" id="idPlus" value="+" onclick="resultZnak('+')">
+        <input type="button" id="idMinus" value="-" onclick="resultZnak('-')">
+        <input type="button" id="idResult" value="=" onclick="resultRavno()">
+        <input type="button" id="idShare" value="/" onclick="resultZnak('/')">
+        <input type="button" id="idX" value="X" onclick="resultZnak('*')">
         <input type="button" id="idx2" value="x2" onclick="result()">
         <input type="button" id="idx3" value="x3" onclick="result()">
     </div>
     <div id="result"></div>
     <div id="archiv">йооу</div>
+    <div id="znak">+-</div>
+    <div id="backup">??????</div>
 </body>
 </html>
