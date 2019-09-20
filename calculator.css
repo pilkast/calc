@@ -93,6 +93,10 @@ input#idShare {
     margin-top: 125px;
     margin-left: 551px;
 }
+input#clearAll {
+    margin-top: 125px;
+    margin-left: 236px;
+}
 input#idResult {
     margin-top: 486px;
     margin-left: 551px;
@@ -112,4 +116,25 @@ div#result {
     font-size: 42px;
     margin-top: 100px;
     margin-left: 950px;
+
+}
+div#archiv {
+    position: absolute;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 350px;
+
+}
+div#znak {
+    position: absolute;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 950px;
+
+}
+div#backup {
+    position: absolute;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 1300px;
 }
